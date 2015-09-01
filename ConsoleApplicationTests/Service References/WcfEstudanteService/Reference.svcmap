@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="69051766-04b8-45b3-ac18-58967eb175aa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://acmeprjsrv.azurewebsites.net/estudanteservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EstudanteService.wsdl" MetadataType="Wsdl" ID="0acad677-917a-491e-9b2b-7d7ac0a64f5c" SourceId="1" SourceUrl="http://acmeprjsrv.azurewebsites.net/EstudanteService.svc?wsdl" />
+    <MetadataFile FileName="EstudanteService.xsd" MetadataType="Schema" ID="b096a968-bc8e-48ce-86c4-c2a59a03419a" SourceId="1" SourceUrl="http://acmeprjsrv.azurewebsites.net/EstudanteService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EstudanteService.disco" MetadataType="Disco" ID="22e9422a-f87a-4005-ade9-20e879f81507" SourceId="1" SourceUrl="http://acmeprjsrv.azurewebsites.net/EstudanteService.svc?disco" />
+    <MetadataFile FileName="EstudanteService1.xsd" MetadataType="Schema" ID="d2bf28bc-b6cd-4d2d-a532-6958ec8461cb" SourceId="1" SourceUrl="http://acmeprjsrv.azurewebsites.net/EstudanteService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EstudanteService2.xsd" MetadataType="Schema" ID="3ba16625-d593-4339-8fff-6330ec1e69ab" SourceId="1" SourceUrl="http://acmeprjsrv.azurewebsites.net/EstudanteService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

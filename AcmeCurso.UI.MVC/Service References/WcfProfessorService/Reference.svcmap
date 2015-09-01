@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9a3702ad-238d-4ad7-ad6a-cff6d707e864" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:27182/ProfessorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProfessorService.xsd" MetadataType="Schema" ID="60fe467a-f199-467d-812d-e7f882f0b4fe" SourceId="1" SourceUrl="http://localhost:27182/ProfessorService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProfessorService.disco" MetadataType="Disco" ID="b1cc3cc3-813e-4171-8679-65cec9562058" SourceId="1" SourceUrl="http://localhost:27182/ProfessorService.svc?disco" />
+    <MetadataFile FileName="ProfessorService1.xsd" MetadataType="Schema" ID="3f668e84-0500-4080-b3c4-2ef5cc809f8b" SourceId="1" SourceUrl="http://localhost:27182/ProfessorService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProfessorService.wsdl" MetadataType="Wsdl" ID="74adc564-07fd-4ecd-87b3-81dadb112300" SourceId="1" SourceUrl="http://localhost:27182/ProfessorService.svc?wsdl" />
+    <MetadataFile FileName="ProfessorService2.xsd" MetadataType="Schema" ID="7a6d9d7e-bd7d-4f76-a4d4-1425afc1abb7" SourceId="1" SourceUrl="http://localhost:27182/ProfessorService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Arquitetura de Software Distribuído</h1>
+    <p class="lead">Acme Cursos</p>
+    @*<p><a href="http://asp.net" class="btn btn-primary btn-large">Leia mais &raquo;</a></p>*@
+</div>
+
+<div class="row">
+
+    <div class="col-md-3">
+        <h2>Professores</h2>
+        <p>Catalogo de professores</p>
+        <p><a class="btn btn-default" href="@Url.Action("index","professor")">Visualizar &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <h2>Estudantes</h2>
+        <p>Catalogo de estudantes.</p>
+        <p><a class="btn btn-default" href="@Url.Action("index", "estudante")">Visualizar &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <h2>Cursos</h2>
+        <p>Catalogo de cursos.</p>
+        <p><a class="btn btn-default" href="@Url.Action("index", "curso")">Visualizar &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <h2>Inscrições</h2>
+        <p>
+            Realiza inscrição de estudantes.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("cadastrarestudante","inscricao")">Inscrever &raquo;</a></p>
+    </div>
+</div>

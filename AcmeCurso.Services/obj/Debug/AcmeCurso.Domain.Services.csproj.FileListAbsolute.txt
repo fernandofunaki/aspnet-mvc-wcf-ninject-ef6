@@ -1,0 +1,7 @@
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\bin\Debug\AcmeCurso.Services.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\bin\Debug\AcmeCurso.Services.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\bin\Debug\Domain.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\bin\Debug\Domain.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\obj\Debug\AcmeCurso.Domain.Services.csprojResolveAssemblyReference.cache
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\obj\Debug\AcmeCurso.Services.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.Services\obj\Debug\AcmeCurso.Services.pdb

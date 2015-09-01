@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56E31F5E-5279-4DEB-B967-4AF4A04E5B84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Domain</RootNamespace>
+    <AssemblyName>Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Entity.cs" />
+    <Compile Include="Contracts\Repositories\IBaseRepository\IAddRepository.cs" />
+    <Compile Include="Contracts\Repositories\IBaseRepository\IDeleteRepository.cs" />
+    <Compile Include="Contracts\Repositories\IBaseRepository\IReadSingleRepository.cs" />
+    <Compile Include="Contracts\Repositories\IBaseRepository\IUdapteRepository.cs" />
+    <Compile Include="Contracts\Services\IInscricaoServiceDomain.cs" />
+    <Compile Include="Contracts\Services\IProfessorServiceDomain.cs" />
+    <Compile Include="Contracts\Services\IEstudanteServiceDomain.cs" />
+    <Compile Include="Contracts\Services\ICursoServiceDomain.cs" />
+    <Compile Include="Contracts\Repositories\ICursoRepository.cs" />
+    <Compile Include="Contracts\Repositories\IBaseRepository\IFilterRepository.cs" />
+    <Compile Include="Contracts\Repositories\IEstudanteRepository.cs" />
+    <Compile Include="Contracts\Repositories\IInscricaoRepository.cs" />
+    <Compile Include="Contracts\Repositories\IProfessorRepository.cs" />
+    <Compile Include="IContext.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\Estudante.cs" />
+    <Compile Include="Models\Inscricao.cs" />
+    <Compile Include="Models\Professor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

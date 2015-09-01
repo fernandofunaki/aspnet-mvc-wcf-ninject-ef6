@@ -1,0 +1,5 @@
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\bin\Release\Domain.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\bin\Release\Domain.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\obj\Release\AcmCurso.Domain.csprojResolveAssemblyReference.cache
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\obj\Release\Domain.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\obj\Release\Domain.pdb

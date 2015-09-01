@@ -1,0 +1,47 @@
+﻿@model AcmeCurso.Domain.Inscricao
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Inscrever Estudante</h2>
+
+
+@using (Html.BeginForm("cadastrarestudante","inscricao", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Inscricao</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CursoId, "Curso", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CursoId", String.Empty)
+                @Html.ValidationMessageFor(model => model.CursoId)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.EstudanteId, "Estudante", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("EstudanteId", String.Empty)
+                @Html.ValidationMessageFor(model => model.EstudanteId)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
