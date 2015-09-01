@@ -1,4 +1,0 @@
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\bin\Debug\Domain.dll
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\bin\Debug\Domain.pdb
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\obj\Debug\Domain.dll
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\Domain\obj\Debug\Domain.pdb

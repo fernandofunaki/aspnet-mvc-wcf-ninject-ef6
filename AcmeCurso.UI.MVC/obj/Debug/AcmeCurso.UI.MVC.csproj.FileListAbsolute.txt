@@ -1,7 +1,9 @@
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.UI.MVC.dll.config
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.UI.MVC.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.UI.MVC.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.Repositories.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Antlr3.Runtime.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Domain.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.SqlServer.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.AspNet.Identity.Core.dll
@@ -18,6 +20,7 @@ C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.Owin.Securit
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.Owin.Security.Twitter.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Newtonsoft.Json.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Ninject.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Owin.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.Helpers.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.Mvc.dll
@@ -27,6 +30,11 @@ C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.WebPages.De
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.WebPages.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.WebPages.Razor.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\WebGrease.dll
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.Repositories.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Domain.pdb
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.xml
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.SqlServer.xml
+C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Ninject.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.Helpers.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.Mvc.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.Optimization.xml
@@ -36,8 +44,6 @@ C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.WebPages.De
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\System.Web.WebPages.Razor.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Newtonsoft.Json.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Antlr3.Runtime.pdb
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.xml
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\EntityFramework.SqlServer.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.AspNet.Identity.Core.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -53,7 +59,3 @@ C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Microsoft.Owin.Securit
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\obj\Debug\AcmeCurso.UI.MVC.csprojResolveAssemblyReference.cache
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\obj\Debug\AcmeCurso.UI.MVC.dll
 C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\obj\Debug\AcmeCurso.UI.MVC.pdb
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.Repositories.dll
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\AcmeCurso.Repositories.pdb
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Ninject.dll
-C:\FUNAKI\Puc\aspnetmvc\AcmCursosSln\AcmeCurso.UI.MVC\bin\Ninject.xml
