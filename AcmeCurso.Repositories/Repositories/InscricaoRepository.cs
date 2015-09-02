@@ -52,7 +52,7 @@ namespace AcmeCurso.Repositories
             {
                 query = query.Include(includeProperty);
             }
-            return query.AsNoTracking();
+            return query.Where(expression).AsNoTracking();
         }
 
     }
